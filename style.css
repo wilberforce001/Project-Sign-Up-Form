@@ -28,15 +28,25 @@ body {
 .right {
   display: flex;
   flex-direction: column;
+  background-color: #fafafa;
+  width: 65vw;
 
 }
 
 .first {
   height: 33vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+
 }
 
 .second {
   height: 33vh;
+  background-color: white;
 }
 
 .third {
