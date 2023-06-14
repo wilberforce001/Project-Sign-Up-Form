@@ -49,6 +49,11 @@ body {
   background-color: white;
 }
 
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+}
+
 .third {
   height: 33vh;
 }
