@@ -71,6 +71,14 @@ input {
   border-radius: 5px;
 }
 
+input:focus {
+  border: 3px solid blue;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
 .third {
   height: 33vh;
 }
