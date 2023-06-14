@@ -7,4 +7,14 @@ h1 {
   font-family: Norse-Bold, sans-serif;
 }
 
-  
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vws;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
