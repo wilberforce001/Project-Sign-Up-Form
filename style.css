@@ -7,7 +7,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: Norse-Bold, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -50,7 +50,7 @@ body {
   height: 45vh;
   background-color: white;
   align-items: center;
-  box-shadow: 2px 5px #888888;
+  box-shadow: 2px 5px #e5e7eb;
   
 }
 
@@ -111,7 +111,7 @@ label {
   width: 175px;
   font-weight: bolder;
   font-size: small;
-  box-shadow: 2px 5px #888888;
+  box-shadow: 2px 5px #E5E7EB;
 }
 
 .hyperlink {
@@ -160,6 +160,6 @@ label {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 45px;
   font-family: Norse-Bold;
 }
