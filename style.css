@@ -23,6 +23,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
   /*font-family: Norse-Bold sans-serif;*/
 }
 
@@ -35,13 +37,12 @@ body {
 }
 
 .first {
-  height: 25vh;
+  height: 20vh;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   margin-left: 5%;
-  margin-top: 5%;
-  
+  margin-top: 5%;  
 
 }
 
@@ -50,8 +51,15 @@ body {
   background-color: white;
   align-items: center;
   box-shadow: 2px 5px #888888;
+  
 }
 
+.third {
+  margin-left: 50px;
+  margin-top: 25px;
+  
+  
+  }
 .form-main-div {
   display: flex;
   flex-direction: row;
@@ -106,18 +114,36 @@ label {
   box-shadow: 2px 5px #888888;
 }
 
-.third {
-  margin-left: 50px;
-  margin-top: 25px;
-  }
-
 .hyperlink {
   margin-left: 50px;
   margin-bottom: 25px;
 }
 
-a {
+.login {
   color: #596D48;
   text-decoration: none;
   font-weight: bold;
+}
+
+.a-footer {
+  color: white;
+}
+
+.p-footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+.forImage {
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.forFooter {
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 35vh;
 }
