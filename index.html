@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="main">
@@ -13,51 +14,58 @@
         </div>
         <div class="right">
             <div class="first">
-                <h2>This is not a real online service! You know you need something <br/>
+                <h3>This is not a real online service! You know you need something <br/>
                     this in your life to help you realize your deepest dreams.<br/>
                     Sign up <em>now</em> to get started.
                     <br/><br/>
                     You <em>know</em> you want to.
-                </h2>
+                </h3>
             </div>
-            
-            <div class="second">
-                <h3 style="margin-left: 50px; margin-top: 10px;">Let's do this!</h3>
-                <form action="" method="get" class="form-main-div">
-                    <div class="form-divs">
-                        <div class="form-div">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="first_name">
+                <form action="" method="get">
+                    <div class="second">
+                        <h3 style="margin-left: 50px; padding-top: 20px;">Let's do this!</h3>
+                        <div class="form-main-div">
+                            <div class="form-divs">
+                                <div class="form-div">
+                                    <label for="firstName">FIRST NAME</label>
+                                    <input type="text" id="firstName" name="first_name">
+                                </div>
+                                <div class="form-div">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div class="form-div">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" name="password" required>
+                                    <p id="error">*passwords do not match!</p>
+                                </div>
+        
+                            </div>
+                            <div class="form-divs">
+                                <div class="form-div">
+                                    <label for="lastname">LAST NAME</label>
+                                    <input type="text" id="lastname" name="last_name">
+                                </div>
+                                <div class="form-div">
+                                    <label for="phonenumber">PHONE NUMBER</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                                </div>
+                                <div class="form-div">
+                                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-div">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div class="form-div">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
-                        </div>
-
                     </div>
-                    <div class="form-divs">
-                        <div class="form-div">
-                            <label for="lastname">Last Name</label>
-                            <input type="text" id="lastname" name="last_name">
-                        </div>
-                        <div class="form-div">
-                            <label for="phonenumber">Phone number</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber">
-                        </div>
-                        <div class="form-div">
-                            <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword">
-                        </div>
+                    <div class="third">
+                        <button type="submit" class="btn-green">Create Account</button>
                     </div>
                 </form>
+                <div class="hyperlink">
+                    <p>Already have an account?<a href="">Log in</a></p>
+                </div>
             </div>
-            <div class="third">World</div>
-        </div>
-    </div>
-    
+    </div>   
 </body>
+
 </html>
