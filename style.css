@@ -145,5 +145,12 @@ label {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  width: 35vh;
+  width: 95vh;
+}
+
+.semi-transparent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
 }
